@@ -1,4 +1,4 @@
-# Contando letras A usando multiprocessos
+# Contando números primos usando multiprocessos
 
 Esta tarefa consiste em receber um texto na entrada e contar quantos números
 primos existem nessa entrada. Porém, trata-se de
