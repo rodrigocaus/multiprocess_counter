@@ -11,7 +11,7 @@ As soluções deverão ser estruturadas de forma que:
 
 1. cada número deve ser analisado (quanto a ser primo ou não) por
 um processo independente.
-1. Os processo deverão (ao menos potencialmente) poder
+1. Os processos deverão (ao menos potencialmente) poder
 executar em paralelo.
 1. O programa deverá assumir um **número máximo de processos paralelos** igual a
 `4`.
@@ -28,13 +28,13 @@ Entrada | Saida
 ------- | -----
 `0\n` | `0\n`
 `1\n` | `0\n`
-`2 1\n` | `1\n` (operando em um processo)
+`2 1\n` | `1\n` (operando em dois processo)
 `2 1 0\n` | `1\n` (operando em três processos)
-`3 5 2 7 9 1 0\n | `4\n` (operando em quatro processos)
+`3 5 2 7 9 1 0\n` | `4\n` (operando em quatro processos)
 
 ## Instruções adicionais
 
 1. Vá diretamente ao conjunto de testes para verificar como tratar casos
    limítrofes ou mal-definidos.
-1. Lembre-se de seguir as [instruções de submissão](docs/instrucoes.md).
+1. Lembre-se de seguir as [instruções de submissão](doc/instrucoes.md).
 1. Se desejar, proponha novos casos de teste.
