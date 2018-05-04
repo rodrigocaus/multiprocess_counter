@@ -46,15 +46,15 @@ int main() {
                             MAP_SHARED | MAP_ANONYMOUS, 0, 0);
 
     //Vetor dos elementos de entrada
-    int entrada[ENTRADA_MAX];
+    unsigned long entrada[ENTRADA_MAX];
 
     int n_processos = 0;
 
     pid_node *pid_list = NULL;
-    
+
     int index = 0;
     // Lê todos os numeros da entrada antes
-    while(scanf("%d ", &(entrada[index++])) != EOF);
+    while(scanf("%lu ", &(entrada[index++])) != EOF);
 
     pid_t filho;
     for(int i = 0; i < index; i++) {
