@@ -1,0 +1,12 @@
+sh test.sh ./main 1
+Testando ./main
+Teste ./tests/test00.in - OK!
+Teste ./tests/test01.in - OK!
+Teste ./tests/test02.in - OK!
+Teste ./tests/test03.in - OK!
+Teste ./tests/test04.in - OK!
+Teste ./tests/test05.in - OK!
+Teste ./tests/test06.in - OK!
+Total de testes: 7
+Total de acertos: 7
+Indice de acertos: 100
