@@ -54,7 +54,7 @@ int main() {
 
     int index = 0;
     // Lê todos os numeros da entrada antes
-    while(scanf("%lu ", &(entrada[index++])) != EOF);
+    while(scanf("%lu ", &(entrada[index])) != EOF) index++;
 
     pid_t filho;
     for(int i = 0; i < index; i++) {
